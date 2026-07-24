@@ -1,101 +1,187 @@
-# ☁️ CloudSphere Solutions – AWS Cloud & DevOps Company Website
+# ☁️ CloudSphere Solutions
 
-A professional responsive business website developed for **CloudSphere Solutions**, a fictional cloud consulting company specializing in **Amazon Web Services (AWS)** and **DevOps** solutions.
+## AWS EC2 Windows Server IIS Website Hosting
 
-This project demonstrates how a modern business website can be hosted on a **Windows Server EC2 instance using IIS (Internet Information Services)** on Amazon Web Services.
+![GitHub last commit](https://img.shields.io/github/last-commit/Ajwafarooq/aws-window-IIS-website-hosting)
+![GitHub repo size](https://img.shields.io/github/repo-size/Ajwafarooq/aws-window-IIS-website-hosting)
+![GitHub License](https://img.shields.io/badge/License-Educational-blue)
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![IIS](https://img.shields.io/badge/Web%20Server-Microsoft%20IIS-blue)
 
----
-
-## 📌 Project Overview
-
-CloudSphere Solutions is a responsive corporate website designed to showcase cloud consulting services, AWS expertise, DevOps solutions, pricing plans, technologies, and company information.
-
-The website was developed using only front-end technologies and deployed on an AWS Windows Server using IIS.
+> A responsive business website deployed on **AWS EC2 Windows Server** using **Microsoft Internet Information Services (IIS)**. This project demonstrates practical cloud deployment, Windows Server administration, IIS configuration, and front-end web development.
 
 ---
 
-## 🎯 Project Objectives
+# 🔗 Repository
 
-- Design a modern cloud consulting website.
-- Develop a fully responsive user interface.
-- Host the website on AWS EC2 Windows Server.
-- Configure IIS for website deployment.
-- Demonstrate practical cloud hosting skills.
-- Publish the project on GitHub.
+**GitHub Repository**
+
+https://github.com/Ajwafarooq/aws-window-IIS-website-hosting
 
 ---
 
-# 🛠 Technologies Used
+# 📌 Project Overview
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Font Awesome Icons
-- Google Fonts
+CloudSphere Solutions is a fictional cloud consulting company website developed to simulate a real-world cloud deployment scenario.
+
+The website was built using **HTML5**, **CSS3**, and **JavaScript**, then deployed on an **AWS EC2 Windows Server** using **Microsoft IIS**.
+
+The objective of this project was to gain hands-on experience with cloud infrastructure, Windows Server management, IIS configuration, GitHub version control, and static website deployment.
+
+---
+
+# 📸 Project Preview
+
+## 🏠 Home Page
+
+![Home](home.png)
+
+---
+
+## 👨‍💻 About Section
+
+![About](about.png)
+
+---
+
+## ☁️ Services
+
+![Services](service.png)
+
+---
+
+## 💻 Technologies
+
+![Technologies](technologypage.png)
+
+---
+
+## 👥 Team
+
+![Team](teampage.png)
+
+---
+
+## 📩 Contact
+
+![Contact](contactpage.png)
+
+---
+
+# 🏗️ Architecture
+
+```text
+Developer
+     │
+     ▼
+Visual Studio Code
+     │
+     ▼
+GitHub Repository
+     │
+     ▼
+AWS EC2 Windows Server
+     │
+     ▼
+Microsoft IIS Web Server
+     │
+     ▼
+Website Hosted on Public IP
+```
+
+---
+
+# 🎯 Project Objectives
+
+- Build a responsive business website.
+- Deploy a website on AWS EC2.
+- Configure Microsoft IIS.
+- Host static website files.
+- Configure Windows Server.
+- Access the application using the EC2 Public IP.
+- Practice Git & GitHub workflow.
+
+---
+
+# 🛠️ Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| Front-End | HTML5 |
+| Styling | CSS3 |
+| Programming | JavaScript |
+| Icons | Font Awesome |
+| Fonts | Google Fonts |
+| Cloud Platform | AWS EC2 |
+| Operating System | Windows Server |
+| Web Server | Microsoft IIS |
+| Version Control | Git |
+| Repository Hosting | GitHub |
+
+---
+
+# ☁️ AWS Services Used
+
+- Amazon EC2
+- Windows Server
 - Microsoft IIS
-- AWS EC2 (Windows Server)
-
----
-
-# ☁ AWS Services Used
-
-- Amazon EC2 (Windows Server)
 - Security Groups
-- Elastic IP (Optional)
+- Public IPv4
 - Remote Desktop Protocol (RDP)
-- Internet Information Services (IIS)
 
 ---
 
 # ✨ Features
 
-- Responsive Design
-- Fixed Navigation Bar
-- Hero Section
-- About Section
-- Company Statistics
-- Cloud Services
-- Why Choose Us
-- Technologies Section
+- Responsive Website Design
+- Sticky Navigation Bar
+- Hero Banner
+- About Company Section
+- Services Section
+- Technologies Showcase
 - Team Section
-- Testimonials
 - Pricing Plans
+- Testimonials
 - Contact Form
-- Footer with Social Icons
 - Smooth Scrolling Navigation
 - Active Navigation Highlight
-- Responsive Layout
+- Mobile-Friendly Layout
 
 ---
 
 # 📂 Project Structure
 
-```
-CloudSphere-Solutions/
-│
-├── index.html
-├── style.css
-├── script.js
+```text
+ec2-windows-server-iis-hosting/
 │
 ├── images/
-│   ├── hero.png
-│   ├── about.png
+│   ├── hero.jpg
+│   ├── about.jpg
 │   ├── team1.jpg
 │   ├── team2.jpg
 │   └── team3.jpg
 │
-└── README.md
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+│
+├── home.png
+├── about.png
+├── service.png
+├── technologypage.png
+├── teampage.png
+└── contactpage.png
 ```
 
 ---
 
 # 🚀 Deployment Steps
 
-## 1. Launch Windows Server EC2
+## Step 1 — Launch AWS EC2
 
-- Login to AWS Console
-- Launch Windows Server Instance
-- Configure Security Groups
+- Launch a Windows Server EC2 instance.
+- Configure the Security Group.
 - Allow:
   - HTTP (80)
   - HTTPS (443)
@@ -103,39 +189,39 @@ CloudSphere-Solutions/
 
 ---
 
-## 2. Connect to EC2
+## Step 2 — Connect via Remote Desktop
 
-- Download RDP File
-- Decrypt Administrator Password
-- Connect using Remote Desktop
+- Download the RDP file.
+- Decrypt the Administrator password.
+- Connect to the Windows Server using Remote Desktop.
 
 ---
 
-## 3. Install IIS
+## Step 3 — Install IIS
 
-Open PowerShell as Administrator.
+Open **PowerShell** as Administrator.
 
 ```powershell
-Install-WindowsFeature -name Web-Server -IncludeManagementTools
+Install-WindowsFeature -Name Web-Server -IncludeManagementTools
 ```
 
 ---
 
-## 4. Copy Website Files
+## Step 4 — Deploy Website Files
 
-Copy the project files into:
+Copy all project files to:
 
-```
+```text
 C:\inetpub\wwwroot
 ```
 
 ---
 
-## 5. Start IIS
+## Step 5 — Verify IIS
 
 Open:
 
-```
+```text
 Internet Information Services (IIS) Manager
 ```
 
@@ -143,115 +229,42 @@ Ensure the **Default Web Site** is running.
 
 ---
 
-## 6. Access the Website
+## Step 6 — Access the Website
 
-Open your browser:
+Open:
 
-```
+```text
 http://YOUR_PUBLIC_IP
 ```
 
 ---
 
-# 📷 Project Screenshots
+# 💡 Skills Demonstrated
 
-## Home Page
-
-(Add Screenshot)
-
----
-
-## About Section
-
-(Add Screenshot)
-
----
-
-## Services Section
-
-(Add Screenshot)
+- AWS EC2 Deployment
+- Windows Server Administration
+- IIS Configuration
+- Static Website Hosting
+- Remote Desktop (RDP)
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+- Cloud Infrastructure Fundamentals
 
 ---
 
-## Technologies Section
+# 📈 Future Improvements
 
-(Add Screenshot)
-
----
-
-## Team Section
-
-(Add Screenshot)
-
----
-
-## Pricing Section
-
-(Add Screenshot)
-
----
-
-## Contact Section
-
-(Add Screenshot)
-
----
-
-## IIS Hosting
-
-(Add Screenshot)
-
----
-
-## AWS EC2 Dashboard
-
-(Add Screenshot)
-
----
-
-# 💡 JavaScript Features
-
-- Smooth scrolling navigation
-- Active navigation highlighting
-- Contact form submission alert
-- Automatic form reset
-
----
-
-# 📱 Responsive Design
-
-The website is optimized for:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile Devices
-
----
-
-# 📖 Learning Outcomes
-
-Through this project, I learned:
-
-- AWS EC2 deployment
-- Windows Server administration
-- IIS website hosting
-- Front-end web development
-- Responsive web design
-- Git & GitHub workflow
-- Cloud deployment fundamentals
-
----
-
-# 🔮 Future Improvements
-
-- Backend Integration
-- Database Connectivity
-- Contact Form API
-- Live Chat Support
-- Authentication System
-- SSL Certificate
-- Domain Configuration
+- SSL / HTTPS Configuration
+- Custom Domain Integration
+- Contact Form Backend
+- Database Integration
+- AWS Route 53
+- CI/CD Pipeline
+- Load Balancer
+- CloudFront CDN
 
 ---
 
@@ -261,16 +274,19 @@ Through this project, I learned:
 
 BS Software Engineering Student
 
-National Textile University
+**Areas of Interest**
+
+- AWS Cloud Computing
+- DevOps
+- Cloud Infrastructure
+- Web Development
 
 ---
 
 # 📄 License
 
-This project is developed for educational and portfolio purposes.
+This project is intended for educational and portfolio purposes.
 
 ---
 
-# ⭐ If you like this project
-
-Please give this repository a ⭐ on GitHub.
+⭐ **If you found this project helpful, please consider giving it a Star on GitHub!**
