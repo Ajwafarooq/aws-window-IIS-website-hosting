@@ -89,6 +89,10 @@ Microsoft IIS Web Server
 Website Hosted on Public IP
 ```
 
+
+https://github.com/user-attachments/assets/985c6e1e-92ce-4fe8-952a-e65a4cc964c9
+
+
 ---
 
 # 🎯 Project Objectives
@@ -146,33 +150,6 @@ Website Hosted on Public IP
 - Smooth Scrolling Navigation
 - Active Navigation Highlight
 - Mobile-Friendly Layout
-
----
-
-# 📂 Project Structure
-
-```text
-ec2-windows-server-iis-hosting/
-│
-├── images/
-│   ├── hero.jpg
-│   ├── about.jpg
-│   ├── team1.jpg
-│   ├── team2.jpg
-│   └── team3.jpg
-│
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-│
-├── home.png
-├── about.png
-├── service.png
-├── technologypage.png
-├── teampage.png
-└── contactpage.png
-```
 
 ---
 
